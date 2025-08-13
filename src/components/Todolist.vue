@@ -16,7 +16,7 @@
           <input
             v-model="newTaskText"
             @keyup.enter="handleAddTask"
-            placeholder="e.g. make a video"
+            placeholder="Add a new task..."
             class="todo-input"
             :disabled="isCreating"
           />
